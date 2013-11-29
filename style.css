@@ -1,0 +1,35 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body {
+    background: #212121;
+    background: -moz-radial-gradient(center, ellipse cover, #212121 0%, #000000 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#212121), color-stop(100%,#000000));
+    background: -webkit-radial-gradient(center, ellipse cover, #212121 0%,#000000 100%);
+    background: -o-radial-gradient(center, ellipse cover, #212121 0%,#000000 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #212121 0%,#000000 100%);
+    background: radial-gradient(ellipse at center, #212121 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#000000',GradientType=1 );
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+#plexus {
+    margin: auto;
+    display: block;
+}
+.plexus-line {
+    stroke: white;
+    stroke-width: 0.2px;
+    stroke-linecap: round;
+    -webkit-transition: stroke-dashoffset 2s ease-in-out
+}
+#relauch {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
